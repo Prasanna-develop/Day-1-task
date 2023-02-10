@@ -15,11 +15,6 @@ HTTP2
 
 2.objects and its internal representation in Javascript :
 
-    Objects are important data types in javascript. 
-Objects are different than primitive datatypes (i.e. number, string, boolean, etc.). 
-Primitive data types contain one value but Objects can hold many values in form of Key: value pair.
-These keys can be variables or functions and are called properties and methods, respectively, 
-in the context of an object
+    Objects in JavaScript are data structures that allow you to store multiple values as properties. They are essential for organizing and structuring data in the language. In this blog post, we will delve into the internal representation of objects in JavaScript, which will help you understand how objects work under the hood.
 
-  Every object has some property associated with some value.
-These values can be accessed using these properties associated with them.
+When an object is created in JavaScript, the JavaScript engine creates an internal representation of the object in memory. This internal representation is called an object-intern. The object-intern contains information about the object’s properties, methods, and prototypes.
